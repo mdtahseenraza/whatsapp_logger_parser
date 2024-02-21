@@ -1,0 +1,40 @@
+{
+  "name": "whatsapp-log-parser",
+  "version": "0.2.0",
+  "description": "parse WhatsApp log files",
+  "main": "index.js",
+  "keywords": [
+    "whatsapp",
+    "log",
+    "parser"
+  ],
+  "scripts": {
+    "test": "mocha"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "bin": {
+    "whatsapp-log-parser": "cli.js"
+  },
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/matiassingers/whatsapp-log-parser"
+  },
+  "author": "Matias Singers <mail@matiassingers.com> (http://mts.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matiassingers/whatsapp-log-parser/issues"
+  },
+  "homepage": "https://github.com/matiassingers/whatsapp-log-parser",
+  "dependencies": {
+    "moment": "2.10.3"
+  },
+  "devDependencies": {
+    "mocha": "2.2.5"
+  }
+}
