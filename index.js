@@ -8,7 +8,7 @@ var moment = require('moment');
 function readFileContent(filename, callback){
   var lines = [];
 
-  var instream = fs.createReadStream(filename);
+  
   var outstream = new stream;
   outstream.readable = true;
   outstream.writable = true;
