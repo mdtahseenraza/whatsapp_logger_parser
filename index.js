@@ -67,14 +67,3 @@ function messageDetails(parts){
 
   return details;
 }
-function formatDate(timestamp){
-  if(timestamp.length !== 17){
-    throw new Error('Timestamp is of the wrong length:', timestamp);
-  }
-
-  return moment(timestamp, 'DD/MM/YY HH:mm:ss').format();
-}
-
-module.exports = function(filename){
-  return readFileContent.apply(this, arguments);
-};
